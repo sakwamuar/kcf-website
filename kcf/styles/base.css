@@ -1,0 +1,296 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+/* ========================================================================================================================
+ *   top-level stylesheet for kcf website 17.06.13 (22.17) @author Frank Anamuah-Koufie for JellyCore*
+ * ========================================================================================================================*/
+
+body{
+    margin: 0px;
+    font-family: verdana, helvetica, calibri, arial, sans-serif;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+header{
+    min-height: 50px;
+    background: rgba(75,75,150,1);
+    border-bottom: 1px solid rgba(50,50,150,1);
+    position: fixed;
+    top: 0px;
+    z-index: 200;
+    width: 100%;
+}
+#logo{
+    display: inline;
+    margin: 10px 50px 0px 14%;
+    font-family: helvetica;
+    font-size: 28px;
+    float: left;
+    color: rgba(255,255,255,1);
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgba(255,255,255,1);
+    transition: 1s text-shadow ease-in;
+    cursor: pointer;
+}
+#logo:hover{
+    text-shadow: 0px 0px 10px rgba(255,255,255,1);
+}
+#top_nav{
+    margin-left: 50%;
+    margin-top: 0px;
+}
+#top_nav ul{
+    padding-top: 15px;
+    margin-top: 0px;
+}
+#top_nav ul li{
+    margin-top: 0px;
+    list-style-type: none;
+    font-size: 13px;
+    display: inline;
+    color: rgba(255,255,255,1);
+    text-shadow: 1px 1px 1px rgba(0,0,0,1);
+    cursor: pointer;
+    margin-right: 20px;
+    transition: 1s text-shadow ease-in;
+}
+#top_nav ul li:hover{
+    color: rgba(255,255,0,1);
+    text-shadow: 0px 0px 10px rgba(255,255,255,1);
+}
+.no_hover_effect{
+    color: rgba(0,0,0,1);
+    text-shadow: 0px 0px 0px rgba(0,0,0,1);
+}
+#extras{
+    margin: 0px!important;
+    padding: 0px !important;
+    *display: none;
+}
+#extras li{
+    display: block !important;
+    margin: 0px!important;
+    color: rgba(0,0,0,1)!important;
+    text-shadow: none!important;
+    line-height: 2;
+    text-transform: capitalize;
+    padding: 0px 20px;
+}
+#extras li:hover{
+    background: rgba(225,225,0,1);
+}
+#outer_shell{
+
+}
+#inner_shell{
+
+}
+#top_shadow{
+    height: 200px;
+    margin: 0px 13.85%;
+    margin-top: 100px;
+    position: relative;
+    box-shadow: 0px 0px 20px rgba(0,0,0,1);
+    border-radius: 50px;
+    display: none;
+}
+#top_half{
+    height: 400px;
+    margin: 0px 13.5%;
+    margin-top: -385px;
+    position: relative;
+    z-index: 15;
+    overflow: hidden;
+}
+
+#slider{
+    width: 5000px;
+    position: absolute;
+    transition: all 1s ease-in-out;
+}
+#slider img{
+    width: 1000px;
+    height: 400px;
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+#mission{
+    min-height: 150px;
+    border-top: 1px solid rgba(210,210,210,1);
+    background: rgba(235,235,235,1);
+}
+
+#mission img{
+    height: 76px;
+    width: 76px;
+    margin: 30px 20px 20px 25%;
+    padding-right: 20px;
+    float: left;
+    border-right: 1px solid rgba(215,215,215,1);
+}
+
+#mission img:hover{
+}
+#mission p{
+    margin: 35px 25% 0px 13.5%;
+    font-size: 13px;
+    line-height: 1.5;
+}
+#boxes{
+    min-height: 300px;
+    height: max-content;
+    min-width: 200px;
+    margin: 20px 13.5%;
+    border-width: 0px 1px;
+    border-style: dotted;
+    border-color: rgba(225,225,225,1);
+    margin-top: -325px;
+    background: rgba(255,255,255,1);
+}
+#bottom_half{
+}
+footer{
+    margin-top: 50px;
+    border-top: 1px solid rgba(225,225,225,1);
+    clear: both;
+}
+#copyright{
+    margin: 25px;
+    margin-left: 13.5%;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(100,100,100,1);
+}
+#copyright:hover{
+    color: rgba(75,75,225,1);
+    cursor: pointer;
+}
+
+.shadow{
+    opacity: 0.75;
+    box-shadow:0px 2px 15px 10px rgba(0,0,0,1);
+}
+#left_shadow{
+    height:300px;
+    background:rgba(0,0,0,1);
+    transform:rotate(2deg);
+    -moz-transform:rotate(2deg);
+    -webkit-transform:rotate(2deg);
+    position:relative;
+    margin: 0px 15%;
+    margin-top: 135px;
+}
+
+#right_shadow{
+    height:300px;
+    background:rgba(0,0,0,1);
+    transform:rotate(-2deg);
+    -moz-transform:rotate(-2deg);
+    -webkit-transform:rotate(-2deg);
+    position:relative;
+    margin: 0px 15%;
+    margin-top: -300px;
+}
+.box{
+    border-right: 1px solid rgba(245,245,245,1);
+    max-width: 33%;
+    min-width: 200px;
+    min-height: 250px;
+    margin: 1px;
+    float: left;
+}
+.box img{
+    height: 96px;
+    width: 96px;
+    float: left;
+}
+.box h3{
+    color: rgba(150,150,150,1);
+    text-transform: capitalize;
+    text-align: left;
+    margin-top: 48px;
+    text-indent: 20px;
+    cursor: pointer;
+}
+.box h3:hover{
+    color: rgba(100,100,100,1);
+}
+.item{
+    margin: 10px 15px;
+    border-bottom: 1px solid rgba(240,240,240,1);
+}
+.item p{
+    clear: both;
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.75;
+    color: rgba(75,75,75,1);
+}
+
+.box_no_border{
+    border-right: none;
+}
+#down_shadow{
+    margin: 75px 13.85%;
+    min-width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 15px 5px rgba(50,50,50,1);
+    border-radius: 100px;
+}
+#overhang{
+    position:fixed;
+    top:200px;
+    width: 50px;
+    height: 150px;
+    background: rgba(100,100,200,1);
+    z-index: 500;
+    border-radius: 0px 10px 10px 0px;
+}
+.arrow{
+    margin: 10px;
+    position: absolute;
+    top:150px;
+    z-index: 200;
+    color: rgba(255,255,255,1);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 64px;
+    opacity: .5;
+}
+.arrow:hover{
+    border: 1px solid rgba(255,255,255,1);
+    background: rgba(25,25,25,1);
+    opacity: 1;
+    padding: 0px;
+}
+#left_arrow{
+
+}
+#right_arrow{
+    margin-left: 95%;
+}
+#holder{
+    background: rgba(255,255,255,1); 
+    padding: 10px 0px;
+    display: block; 
+    border: 1px solid rgba(150,150,150,1);
+    position: absolute;
+    margin-top: 18px;
+    transition: all .5s ease-in-out;
+}
+.menu_header{
+    display: inline-block; 
+}
+.hide_menu{
+    opacity: 0;
+}
+.show_menu{
+    opacity: 1;
+}
+#drop{}
